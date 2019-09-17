@@ -1,0 +1,57 @@
+.container-fluid, header{
+  margin:0 !important;
+  padding:0 !important;
+
+}
+
+
+a:hover{
+  text-decoration: none;
+  color: $grey;
+}
+
+.hidden_filter{
+  display: none !important;
+}
+
+i{
+  color: orange;
+}
+
+.fa-search{
+  color: black;
+}
+
+#selectaddress{
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.button{
+  padding: 8px 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background-color: $grey;
+  color: $white;
+}
+
+.hidden {
+  display: none;
+}
+
+.view-title {
+  color: $green;
+}
+
+.scroll_top{
+  position: fixed;
+  bottom: 0;
+  right: 8px;
+  cursor: pointer;
+  z-index: 9999;
+}
